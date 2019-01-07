@@ -1,0 +1,69 @@
+
+
+body {
+    background-image: url("Raven.jpg");
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+body {
+    color: grey;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: blue;
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #008CBA;
+}
+
+
+
+
+
+
+
+
+

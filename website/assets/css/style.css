@@ -1,0 +1,43 @@
+body{
+	
+
+
+
+}
+
+#navbar{
+color: purple;
+background-color: white;
+padding:15px 15px 15px 15px;
+text-align: right;
+
+}
+
+#navbar ul{
+	color: blue;
+	list-style-type: none;
+	
+	
+
+	
+
+
+}
+#navbar li {
+	color: grey;
+	 display: inline;
+	 border-style: solid;
+	 
+
+
+
+}
+#navbar a{
+	margin:15px 15px 15px;
+	padding: 45px 30px; 
+	color: grey;
+	
+
+
+}
+
