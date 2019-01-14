@@ -1,8 +1,6 @@
 $(function() {
   
-  // sizeSections sets the height of each section element to the viewport
-  // height unless the content height is larger than the the viewport
-  // requires the inner content to be wrapped in a .content div
+  
   var sizeSections = function() {
     var viewHeight = $(window).height();
     $("section").each(function(){
@@ -15,12 +13,12 @@ $(function() {
     });
   }
 
-  // call sizeSections on load
+  
   sizeSections();
-  // attach smoothScroll jQuery plugin to indicated links
+  
   $('.navbar a').smoothScroll();
   
-  // call sizeSections whenever the window is resized
+  
   $(window).resize(function() {
     sizeSections();
   });
